@@ -4,16 +4,16 @@
         <title>Web AR</title>
         <meta name="viewport" content="width=device-width, scale=1.0"/>
         <link rel="stylesheet" href="css/style.css">
-        <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
         <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     </head>
     <body style="margin: 0px; overflow: hidden;">
         <a-scene embedded arjs>
-            <a-marker type="pattern" url="pattern-marker.patt">
+            <a-marker type="pattern" url="pat/pattern-marker.patt">
                 <a-box position="0 -1 0" scale="1 1 1" color="grey"></a-box>
             </a-marker>
             <a-entity camera></a-entity>
         </a-scene>
-        <img src="img/pattern-marker.png">
+        <img src="img/pattern-marker.png" />
     </body>
 </html>
